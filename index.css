@@ -1,0 +1,424 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#head {
+    height: 150px;
+    background-image: url(imgs/head.jpg);
+}
+
+.logo {
+    padding-left: 413px;
+    padding-top: 30px;
+}
+
+#bottom {
+    background-color: rgb(63, 121, 209);
+    height: 68px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#bottom span {
+    color: #fff;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+#nav {
+    background-color: rgb(63, 121, 209);
+    height: 51px;
+}
+
+#link {
+    background-color: rgb(205, 231, 233);
+    height: 51px;
+}
+
+#nav {
+    padding-left: 421px;
+}
+
+#box {
+    padding-left: 363px;
+    padding-right: 363px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 490px;
+    background-color: rgb(231, 245, 246);
+}
+
+
+
+#pho {
+    float: left;
+    width: 355px;
+    height: 225px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(60, 55, 49);
+}
+
+#notice {
+    float: left;
+    width: 505px;
+    height: 225px;
+    margin-right: 19px;
+    margin-bottom: 10px;
+}
+
+#search {
+    width: 260px;
+    height: 38px;
+    float: left;
+    line-height: 38px;
+    padding-left:  10px;
+    padding-right:  10px;
+    margin-bottom: 10px;
+}
+.in1{
+    width: 180px;height: 24px;
+    border-radius: 12px;
+}
+.in2{
+    width: 70px;height: 24px;
+    border-radius: 12px;
+    background-color: chocolate;
+    color: #fff;
+}
+
+#quickly {
+    width: 280px;
+    height: 442px;
+    margin-top: -187px;
+    float: left;
+}
+
+#info {
+    float: left;
+    height: 255px;
+    width: 355px;
+    margin-right: 20px;
+    background-color: aqua;
+}
+
+#news {
+    float: left;
+    height: 255px;
+    width: 505px;
+    margin-right: 19px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.class {
+    margin-left: 413px;
+}
+
+
+
+.txt {
+    width: 355px;
+    height: 25px;
+    line-height: 20px;
+    color: white;
+}
+
+#nav {
+    position: relative;
+}
+
+#nav ul {
+
+    list-style: none;
+    background-color: rgb(63, 121, 209);
+    line-height: 51px;
+    text-align: center;
+    width: 100px;
+    float: left;
+    color: #fff;
+}
+
+.dropdown {
+    position: absolute;
+    z-index: 1;
+    left: 520px;
+    top: 51px;
+    display: none;
+    width: 100px;
+    float: none;
+}
+
+
+.dropdown li {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(63, 121, 209);
+}
+
+.dropdown a li {
+    font-size: 12px;
+}
+
+.menu:hover .dropdown {
+    display: block;
+}
+
+
+
+.dropdown2 {
+    position: absolute;
+    z-index: 1;
+    left: 620px;
+    top: 51px;
+    display: none;
+    width: 100px;
+    float: none;
+}
+
+
+.dropdown2 li {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(63, 121, 209);
+}
+
+.dropdown2 a li {
+    font-size: 12px;
+}
+
+.menu:hover .dropdown2 {
+    display: block;
+}
+
+
+
+.dropdown3 {
+    position: absolute;
+    z-index: 1;
+    left: 720px;
+    top: 51px;
+    display: none;
+    width: 100px;
+    float: none;
+}
+
+
+.dropdown3 li {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(63, 121, 209);
+}
+
+.dropdown3 a li {
+    font-size: 12px;
+}
+
+.menu:hover .dropdown3 {
+    display: block;
+}
+
+
+
+
+.dropdown4 {
+    position: absolute;
+    z-index: 1;
+    left: 820px;
+    top: 51px;
+    display: none;
+    width: 100px;
+    float: none;
+}
+
+
+.dropdown4 li {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(63, 121, 209);
+}
+
+.dropdown4 a li {
+    font-size: 12px;
+}
+
+.menu:hover .dropdown4 {
+    display: block;
+}
+
+
+
+.dropdown5 {
+    position: absolute;
+    z-index: 1;
+    left: 920px;
+    top: 51px;
+    display: none;
+    width: 100px;
+    float: none;
+}
+
+
+.dropdown5 li {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(63, 121, 209);
+}
+
+.dropdown5 a li {
+    font-size: 12px;
+}
+
+.menu:hover .dropdown5 {
+    display: block;
+}
+
+
+
+.dropdown6 {
+    position: absolute;
+    z-index: 1;
+    left: 1020px;
+    top: 51px;
+    display: none;
+    width: 100px;
+    float: none;
+}
+
+
+.dropdown6 li {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(63, 121, 209);
+}
+
+.dropdown6 a li {
+    font-size: 12px;
+}
+
+.menu:hover .dropdown6 {
+    display: block;
+}
+
+
+.dropdown7 {
+    position: absolute;
+    z-index: 1;
+    left: 1220px;
+    top: 51px;
+    display: none;
+    width: 100px;
+    float: none;
+}
+
+
+.dropdown7 li {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(63, 121, 209);
+}
+
+.dropdown7 a li {
+    font-size: 12px;
+}
+
+.menu:hover .dropdown7 {
+    display: block;
+}
+
+
+
+
+.menu .contro :hover {
+    background-color: #fff;
+    color: black;
+}
+
+.link {
+    width: 95px;
+    height: 51px;
+    line-height: 51px;
+    margin-left: 403px;
+    float: left;
+}
+
+.form {
+    width: 936px;
+    height: 51px;
+    line-height: 51px;
+}
+
+.select {
+    width: 180px;
+    height: 51px;
+    margin-left: 54px;
+    float: left;
+}
+
+#quick div {
+    height: 50px;
+    background-color: grb(235, 235, 235);
+    margin-bottom: 2px;
+    line-height: 50px;
+}
+
+.flag {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.title {
+    float: left;
+    color: rgb(150, 0, 0);
+    margin-left: 10px;
+    line-height: 30px;
+    font: 800;
+}
+
+.more {
+    float: right;
+    margin-right: 10px;
+    color: rgb(150, 0, 0);
+    line-height: 30px;
+}
+
+#box div {
+    background-color: rgb(255, 255, 255);
+}
+
+#box div ul {
+    list-style: none;
+}
+#box li{
+    padding-left: 10px;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid rgb(69, 0, 0);
+}
+#box a {
+    color: black;
+    font-size: 14px;
+    border-bottom: 1px;
+}
+.main{
+    float: left;
+}
+#column{
+    background-color: rgb(235, 235, 235);
+    height: 70px;
+    width: 270px;
+    padding-left: 20px;
+    line-height: 50px;
+    margin-bottom: 2px;
+}
